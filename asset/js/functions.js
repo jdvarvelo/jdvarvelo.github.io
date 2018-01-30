@@ -7,6 +7,6 @@ $(document).ready(function(){
 function setLanguage(lang){
 	$("translate").each(function(index){
 		let text=$(this).data("text");
-		$(this).html(objLang[text][lang]);
+		$(this).html(lang_obj[text][lang]);
 	});
 }
