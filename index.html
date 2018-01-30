@@ -1,6 +1,7 @@
 <html>
 <head>
 	<title>Ivan Calderon Portfolio</title>
+	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="./asset/js/translation.js"></script>
@@ -10,7 +11,7 @@
 <body>
 	<nav class="navbar is-primary">
 	  <div class="navbar-brand">
-	    <a class="navbar-item" href="/">
+	    <a class="navbar-item" href="#">
 	      <img src="./asset/img/foto.jpg" alt="Iván Calderon" width="50" height="50">
 	    </a>
 	    <div class="navbar-burger burger" data-target="navbarExamplePrimaryExample">
@@ -22,7 +23,7 @@
 
 	  <div id="navbarExamplePrimaryExample" class="navbar-menu">
 	    <div class="navbar-start">
-	      <a class="navbar-item" href="https://bulma.io/">
+	      <a class="navbar-item" href="#">
 	        <translate data-text="home"></translate>
 	      </a>
 	      <div class="navbar-item has-dropdown is-hoverable">
@@ -30,37 +31,37 @@
 	          <translate data-text="styles"></translate>
 	        </a>
 	        <div class="navbar-dropdown is-boxed">
-	          <a class="navbar-item" href="/documentation/overview/start/">
+	          <a class="navbar-item" href="#">
 	            Bulma
 	          </a>
-	          <a class="navbar-item" href="https://bulma.io/documentation/modifiers/syntax/">
+	          <a class="navbar-item" href="#">
 	            Bootstrap 3
 	          </a>
-	          <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+	          <a class="navbar-item" href="#">
 	            Bootstrap 4
 	          </a>
 	          <hr class="navbar-divider">	          
-	          <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
+	          <a class="navbar-item" href="#">
 	            Materialize
 	          </a>
-	          <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
+	          <a class="navbar-item" href="#">
 	            Foundation
 	          </a>
-	          <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
+	          <a class="navbar-item" href="#">
 	            Sckeletor
 	          </a>
 	        </div>
 	      </div>
-	      <a class="navbar-item" href="https://bulma.io/">
+	      <a class="navbar-item" href="#">
 	        <translate data-text="cv"></translate>
 	      </a>
-	      <a class="navbar-item" href="https://bulma.io/">
+	      <a class="navbar-item" href="#">
 	        <translate data-text="projects"></translate>
 	      </a>
-	      <a class="navbar-item" href="https://bulma.io/">
+	      <a class="navbar-item" href="#">
 	        <translate data-text="codes"></translate>
 	      </a>
-	      <a class="navbar-item" href="https://bulma.io/">
+	      <a class="navbar-item" href="#">
 	        <translate data-text="news"></translate>
 	      </a>  
 	    </div>
@@ -68,7 +69,7 @@
 	    <div class="navbar-end">
 	      <div class="navbar-item">
 		      <div class="navbar-item has-dropdown is-hoverable">
-		        <a class="navbar-link" href="/documentation/overview/start/">
+		        <a class="navbar-link" href="#">
 		          <translate data-text="firstLanguage"></translate>
 		        </a>
 		        <div class="navbar-dropdown is-boxed">
@@ -80,7 +81,43 @@
 	      </div>
 	    </div>
 	  </div>
-	</nav>  	
+	</nav> 
+	<section class="section" id="welcome">
+	    <div class="container">
+	      <h1 class="title">Iván Calderon <translate data-text="welcome"></translate></h1>
+	      <h2 class="subtitle">
+	        	<translate data-text="thanks"></translate>
+	      </h2>
+	    </div>
+	</section>
+	<section id="social-networks">
+	    <div class="container">
+		    <h1 class="title"><translate data-text="socialNetworks"></translate></h1>
+		    <div class="columns is-mobile is-centered">
+		    	<div class="column">
+		    		<a href="#">
+			    		<figure class="image is-square">
+	  						<img src="./asset/img/linkedin.jpg">
+						</figure>
+					</a>
+				</div>
+		    	<div class="column">
+		    		<a href="#">
+			    		<figure class="image is-square">
+	  						<img src="./asset/img/facebook.png">
+						</figure>
+					</a>
+		    	</div>
+		    	<div class="column">
+		    		<a href="#">
+			    		<figure class="image is-square">
+	  						<img src="./asset/img/youtube.png">
+						</figure>
+					</a>
+		    	</div>
+		   	</div>	      
+	    </div>
+	</section>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
 </body>
 </html>
