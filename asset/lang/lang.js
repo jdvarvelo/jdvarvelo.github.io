@@ -1,5 +1,5 @@
-var lang_obj={
+var lang_tmp={
 	home:{es:"Inicio",en:"Home"}
 }
 
-export const lang_obj = lang_obj;
+export const lang_obj = lang_tmp;
