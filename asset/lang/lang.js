@@ -1,5 +1,5 @@
-var lang_tmp={
+var lang_obj={
 	home:{es:"Inicio",en:"Home"}
 }
 
-export default lang_tmp;
+export default lang_obj;
