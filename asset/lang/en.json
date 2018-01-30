@@ -1,0 +1,5 @@
+var lang_obj={
+	home:"Home"
+}
+
+export lang_obj;
