@@ -12,7 +12,20 @@ var lang_obj={
 		es:"Muchas gracias por visitar esté sitio, el cual tiene la finalidad de compartir noticias, códigos e información en general relacionado con el desarrollo de software",
 		en:"Thank you very much for visiting this site, which has the purpose of sharing news, codes and information in general related to software development",
 	},
-	socialNetworks:{es:'Por favor visita mis redes sociales',en:'Please visit my social networks'}
+	socialNetworks:{es:'Por favor visita mis redes sociales',en:'Please visit my social networks'},
+	contactus:{es:'Contactanos',en:'Contact us'},
+	name:{es:'Nombre',en:'Name'},
+	nameValidation:{es:'Este nombre de no es válido',en:'This name is not valid'},
+	emailValidation:{es:'Este email no es válido',en:'This email is not valid'},
+	email:{es:'Correo electónico',en:'Email'},
+	subject:{es:'Asunto',en:'Subject'},
+	select:{es:'Seleccione',en:'Select'},
+	question:{es:'Pregunta',en:'Question'},
+	suggestion:{es:'Sugerencia',en:'Suggestion'},
+	otherSubject:{es:'Otro asunto',en:'Other subject'},
+	message:{es:'Mensaje',en:'Message'},
+	send:{es:'Enviar',en:'Send'},
+	cancel:{es:'Cancelar',en:'Cancel'}
 }
 
 export default lang_obj;
