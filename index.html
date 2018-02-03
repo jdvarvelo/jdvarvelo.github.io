@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Ivan Calderon Portfolio</title>
+	<title>Johana del Valle Arvelo</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -26,43 +26,17 @@
 	      <a class="navbar-item" href="#">
 	        <translate data-lng="home"></translate>
 	      </a>
-	      <div class="navbar-item has-dropdown is-hoverable">
-	        <a class="navbar-link" href="#">
-	          <translate data-lng="styles"></translate>
-	        </a>
-	        <div class="navbar-dropdown is-boxed">
-	          <a class="navbar-item" href="#">
-	            Bulma
-	          </a>
-	          <a class="navbar-item" href="#">
-	            Bootstrap 3
-	          </a>
-	          <a class="navbar-item" href="#">
-	            Bootstrap 4
-	          </a>
-	          <hr class="navbar-divider">	          
-	          <a class="navbar-item" href="#">
-	            Materialize
-	          </a>
-	          <a class="navbar-item" href="#">
-	            Foundation
-	          </a>
-	          <a class="navbar-item" href="#">
-	            Sckeletor
-	          </a>
-	        </div>
-	      </div>
 	      <a class="navbar-item" href="#">
-	        <translate data-lng="cv"></translate>
+	        <translate data-lng="personalData"></translate>
 	      </a>
 	      <a class="navbar-item" href="#">
-	        <translate data-lng="projects"></translate>
+	        <translate data-lng="appliedStudies"></translate>
 	      </a>
 	      <a class="navbar-item" href="#">
-	        <translate data-lng="codes"></translate>
+	        <translate data-lng="skills"></translate>
 	      </a>
 	      <a class="navbar-item" href="#">
-	        <translate data-lng="news"></translate>
+	        <translate data-lng="contact"></translate>
 	      </a>  
 	    </div>
 
@@ -83,116 +57,132 @@
 	  </div>
 	</nav> 
 	<section class="section" id="welcome">
-	    <div class="container">
-	      <h1 class="title">Iván Calderon <translate data-lng="welcome"></translate></h1>
-	      <h2 class="subtitle">
-	        	<translate data-lng="thanks"></translate>
-	      </h2>
+	    <div class="columns">
+	      <div class="column is-three-fifth is-offset-one-quarter">
+		      <h1 class="title">Johana del Valle Arvelo <br></h1>
+		      <h2 class="subtitle">
+		        	<translate data-lng="thanks"></translate>
+		      </h2>
+		   </div>
 	    </div>
 	</section>
-	<section id="social-networks">
-	    <div class="container">
-		    <h1 class="title"><translate data-lng="socialNetworks"></translate></h1>
-		    <div class="columns is-mobile">
-		    	<div class="column">
-		    		<a href="#">
-			    		<figure class="image is-square">
-	  						<img src="./asset/img/facebook.png">
-						</figure>
-					</a>
-				</div>
-		    	<div class="column">
-		    		<a href="#">
-			    		<figure class="image is-square">
-	  						<img src="./asset/img/youtube.png">
-						</figure>
-					</a>
-		    	</div>
-		    	<div class="column">
-		    		<a href="#">
-			    		<figure class="image is-square">
-	  						<img src="./asset/img/twitter.jpg">
-						</figure>
-					</a>
-		    	</div>
-		    	<div class="column">
-		    		<a href="#">
-			    		<figure class="image is-square">
-	  						<img src="./asset/img/linkedin.jpg">
-						</figure>
-					</a>
-		    	</div>		    	
-		   	</div>	      
-	    </div>
-	</section>
-	<section id="contact-form">
-		<div class="container">
-			<h1 class="title"><translate data-lng="contactus"></translate></h1>
 
-			<div class="field">
-			  <label class="label"><translate data-lng="name"></translate></label>
-			  <div class="control has-icons-left has-icons-right">
-			    <input class="input is-danger" type="text" placeholder="Text input" value="">
-			    <span class="icon is-small is-left">
-			      <i class="fas fa-user"></i>
-			    </span>
-			    <span class="icon is-small is-right">
-			      <i class="fas fa-exclamation-triangle"></i>
-			    </span>
-			  </div>
-			  <p class="help is-danger"><translate data-lng="nameValidation"></translate></p>
+	<section id="personalData">
+		<div class="columns">
+			<div class="column is-half is-offset-one-quarter">
+				<h1 class="title"><translate data-lng="personalData"></translate></h1>
+				<table class="table">
+				    <thead>
+				      <tr>
+				        <th><translate data-lng="data"></translate></th>
+				        <th><translate data-lng="value"></translate></th>
+				      </tr>
+				    </thead>
+				    <tbody>
+				      <tr>
+				        <td><translate data-lng="name"></translate></td>
+				        <td>Johana del Valle</td>
+				      </tr>
+				      <tr>
+				        <td><translate data-lng="surname"></translate></td>
+				        <td>Arvelo</td>
+				      </tr>
+				      <tr>
+				        <td><translate data-lng="dob"></translate></td>
+				        <td>22/07/1992</td>
+				      </tr>
+				      <tr>
+				        <td><translate data-lng="address"></translate></td>
+				        <td>Bosa, Bogota</td>
+				      </tr>
+				      <tr>
+				        <td><translate data-lng="phone"></translate></td>
+				        <td>311111111</td>
+				      </tr>
+				    </tbody>
+				</table>
 			</div>
-
-			<div class="field">
-			  <label class="label"><translate data-lng="email"></translate></label>
-			  <div class="control has-icons-left has-icons-right">
-			    <input class="input is-danger" type="email" placeholder="Email input" value="">
-			    <span class="icon is-small is-left">
-			      <i class="fas fa-envelope"></i>
-			    </span>
-			    <span class="icon is-small is-right">
-			      <i class="fas fa-exclamation-triangle"></i>
-			    </span>
-			  </div>
-			  <p class="help is-danger"><translate data-lng="emailValidation"></p>
-			</div>
-
-
-			<div class="field">
-			  <label class="label"><translate data-lng="subject"></translate></label>
-			  <div class="control">
-			    <label class="radio">
-			      <input type="radio" name="subject">
-			      <translate data-lng="question"></translate>
-			    </label>
-			    <label class="radio">
-			      <input type="radio" name="subject">
-			      <translate data-lng="suggestion"></translate>
-			    </label>
-			    <label class="radio">
-			      <input type="radio" name="subject">
-			      <translate data-lng="otherSubject"></translate>
-			    </label>		    
-			  </div>
-			</div>
-
-			<div class="field">
-			  <label class="label"><translate data-lng="message"></translate></label>
-			  <div class="control">
-			    <textarea class="textarea" placeholder="Textarea"></textarea>
-			  </div>
-			</div>
-
-			<div class="field is-grouped">
-			  <div class="control">
-			    <button class="button is-link"><translate data-lng="send"></translate></button>
-			  </div>
-			  <div class="control">
-			    <button class="button is-text"><translate data-lng="cancel"></translate></button>
-			  </div>
-			</div>
-
 		</div>
+	</section>
+
+	<section id="appliedStudies">
+		
+	</section>
+
+	<section id="skills">
+		
+	</section>
+
+	<section id="contact">
+		<div class="columns">
+			<dif class="column is-half is-offset-one-quarter">
+				<h1 class="title"><translate data-lng="contactus"></translate></h1>
+				<div class="field">
+					<label class="label"><translate data-lng="name"></translate></label>
+					<div class="control has-icons-left has-icons-right">
+					   <input class="input is-danger" type="text" placeholder="Text input" value="">
+					   <span class="icon is-small is-left">
+					      <i class="fas fa-user"></i>
+					   </span>
+					   <span class="icon is-small is-right">
+					      <i class="fas fa-exclamation-triangle"></i>
+					   </span>
+					</div>
+					<p class="help is-danger"><translate data-lng="nameValidation"></translate></p>
+				</div>
+
+				<div class="field">
+					<label class="label"><translate data-lng="email"></translate></label>
+					<div class="control has-icons-left has-icons-right">
+					  <input class="input is-danger" type="email" placeholder="Email input" value="">
+					    <span class="icon is-small is-left">
+					      <i class="fas fa-envelope"></i>
+					    </span>
+					    <span class="icon is-small is-right">
+					      <i class="fas fa-exclamation-triangle"></i>
+					    </span>
+					  </div>
+					  <p class="help is-danger"><translate data-lng="emailValidation"></p>
+					</div>
+
+
+					<div class="field">
+					  <label class="label"><translate data-lng="subject"></translate></label>
+					  <div class="control">
+					    <label class="radio">
+					      <input type="radio" name="subject">
+					      <translate data-lng="question"></translate>
+					    </label>
+					    <label class="radio">
+					      <input type="radio" name="subject">
+					      <translate data-lng="suggestion"></translate>
+					    </label>
+					    <label class="radio">
+					      <input type="radio" name="subject">
+					      <translate data-lng="otherSubject"></translate>
+					    </label>		    
+					  </div>
+					</div>
+
+					<div class="field">
+					  <label class="label"><translate data-lng="message"></translate></label>
+					  <div class="control">
+					    <textarea class="textarea" placeholder="Textarea"></textarea>
+					  </div>
+					</div>
+
+					<div class="field is-grouped">
+					  <div class="control">
+					    <button class="button is-link"><translate data-lng="send"></translate></button>
+					  </div>
+					  <div class="control">
+					    <button class="button is-text"><translate data-lng="cancel"></translate></button>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</section>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
 </body>
